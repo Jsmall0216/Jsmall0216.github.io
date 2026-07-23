@@ -484,6 +484,7 @@ footer a {
 
     .profile-photo {
         width: min(45vw, 190px);
+        justify-self: center;
     }
 
     .intro-grid,
@@ -512,6 +513,19 @@ footer a {
 
     .media-grid--two {
         grid-template-columns: 1fr;
+    }
+
+    .media-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .media-card .media-frame + figcaption {
+        order: -1;
+        margin: 0 0 0.85rem;
+        padding: 0 0 1rem;
+        border-top: 0;
+        border-bottom: 1px solid var(--line);
     }
 
     .button-group,
