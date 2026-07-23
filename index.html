@@ -3,52 +3,195 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Jordan Small | River Plume stuff</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(#168eb2, #052949);
-            color: white;
-            min-height: 100vh;
-        }
-
-        main {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 80px 30px;
-        }
-
-        section {
-            background: rgba(245, 252, 255, 0.95);
-            color: #123b50;
-            padding: 32px;
-            border-radius: 24px;
-        }
-
-        h1 {
-            margin-top: 0;
-            font-size: 2.5rem;
-        }
-
-        p {
-            font-size: 1.15rem;
-            line-height: 1.6;
-        }
-    </style>
+    <meta name="description" content="Academic project archive for Jordan Small's end-member mixing analysis of the Winyah Bay and Santee River plumes.">
+    <title>End-Member Mixing Analysis | Jordan Small</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <main>
-        <section>
-            <h1>End-Member Mixing Analysis</h1>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-            <p>
-                Testing
-            </p>
+    <header class="site-header">
+        <div class="container profile">
+            <!-- Replace assets/profile.jpg with a portrait or fieldwork photograph. -->
+            <div class="profile-photo media-frame media-frame--portrait">
+                <img
+                    src="assets/profile.jpg"
+                    alt="Jordan Small conducting coastal oceanography fieldwork"
+                    data-placeholder="Portrait or fieldwork photograph"
+                >
+            </div>
+
+            <div class="profile-copy">
+                <h1>Jordan Small</h1>
+                <p class="profile-role">Physical Oceanography</p>
+                <p class="profile-affiliation">Coastal Carolina University</p>
+
+                <!-- Replace the email address with the preferred public contact address. -->
+                <nav class="profile-links" aria-label="Profile links">
+                    <a href="mailto:Jtsmall4@coastal.edu">Jtsmall4@coastal.edu</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="project-intro">
+            <div class="container intro-grid">
+                <div>
+                    <p class="project-label">Undergraduate Thesis</p>
+                    <h2>End-Member Mixing Analysis of Winyah Bay and Santee River Plumes</h2>
+                    <figure class="project-figure">
+                        <img
+                            src="assets/images/wind-regime-transects.png"
+                            alt="Three transect maps showing source dominance and mean wind direction during MSD, transitioning, and low-strength upwelling-favorable wind regimes"
+                        >
+                    </figure>
+                </div>
+
+                <div class="intro-copy">
+                    <p>
+                        This project examines the interacting freshwater plumes of Winyah Bay and the Santee River along the South Carolina coast. Although individual river plumes have been widely studied, interactions between neighboring plumes remain relatively understudied, especially using in-situ observations. This study applies end-member mixing analysis to plume-layer salinity and colored dissolved organic matter (CDOM) to estimate the relative contribution of each source. The results show how wind forcing influences plume transport, overlap, and source dominance across changing coastal conditions.
+                    </p>
+
+                    <div class="button-group" aria-label="Primary project documents">
+                        <a class="button button--primary" href="files/EMMA-paper.pdf">Read the Paper</a>
+                        <div class="button-row">
+                            <a class="button" href="files/EMMA-poster.pdf">View the Poster</a>
+                            <a class="button" href="files/EMMA-poster-references.pdf">Poster References</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="satellite-heading">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <h2 id="satellite-heading">MODIS Satellite View of the Plumes</h2>
+                    </div>
+                </div>
+
+                <div class="media-grid media-grid--two">
+                    <figure class="media-card">
+                        <!-- Add the wind regime below when the matching wind record is available. -->
+                        <div class="media-frame media-frame--animation">
+                            <img
+                                src="assets/animations/satellite-1.gif"
+                                alt="Animated satellite view of the Winyah Bay and Santee River plumes on March 11, 2025"
+                                data-placeholder="March 11, 2025 satellite animation"
+                            >
+                        </div>
+                        <figcaption>
+                            <div class="figure-meta">
+                                <span>March 11, 2025</span>
+                                <span>Downwelling Favorable/Transitioning Wind Regime</span>
+                            </div>
+                            <p>Satellite animation showing plume waters advecting southwest during downwelling-favorable and transitioning winds, with a pronounced tidal pulse expanding from Winyah Bay.</p>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="media-card">
+                        <!-- Add the wind regime below when the matching wind record is available. -->
+                        <div class="media-frame media-frame--animation">
+                            <img
+                                src="assets/animations/satellite-2.gif"
+                                alt="Animated satellite view of the Winyah Bay and Santee River plumes on March 12, 2025"
+                                data-placeholder="March 12, 2025 satellite animation"
+                            >
+                        </div>
+                        <figcaption>
+                            <div class="figure-meta">
+                                <span>March 12, 2025</span>
+                                <span>Upwelling Favorable Wind Regime</span>
+                            </div>
+                            <p>Satellite animation showing plume waters advecting northeast during upwelling-favorable winds, including a Winyah Bay tidal pulse expanding and moving in the same direction.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="downloads-heading">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <h2 id="downloads-heading">Downloads &amp; Supplementary Materials</h2>
+                    </div>
+                </div>
+
+                <div class="download-list">
+                    <!-- Replace pending files at these paths. Update labels or sizes when final files are uploaded. -->
+                    <a href="files/EMMA-paper.pdf">
+                        <span><strong>Research Paper</strong><small>PDF · Manuscript</small></span>
+                        <span class="download-action">Download <span aria-hidden="true">↓</span></span>
+                    </a>
+                    <a href="files/EMMA-poster.pdf">
+                        <span><strong>PECS Conference Poster</strong><small>PDF · Full resolution</small></span>
+                        <span class="download-action">Download <span aria-hidden="true">↓</span></span>
+                    </a>
+                    <a href="files/EMMA-poster-references.pdf">
+                        <span><strong>Poster Reference List</strong><small>PDF · Complete citations</small></span>
+                        <span class="download-action">Download <span aria-hidden="true">↓</span></span>
+                    </a>
+                    <a href="assets/animations/satellite-1.gif" download>
+                        <span><strong>Satellite Animation — March 11, 2025</strong><small>GIF · Satellite imagery</small></span>
+                        <span class="download-action">Download <span aria-hidden="true">↓</span></span>
+                    </a>
+                    <a href="assets/animations/satellite-2.gif" download>
+                        <span><strong>Satellite Animation — March 12, 2025</strong><small>GIF · Satellite imagery</small></span>
+                        <span class="download-action">Download <span aria-hidden="true">↓</span></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--contact" aria-labelledby="citation-heading">
+            <div class="container citation-grid">
+                <div>
+                    <h2 id="citation-heading">Citation &amp; Contact</h2>
+                    <blockquote>
+                        Insert Citation Text
+                    </blockquote>
+                </div>
+
+                <address>
+                    <strong>Jordan Small</strong>
+                    <span>Physical Oceanography</span>
+                    <span>Coastal Carolina University</span>
+                    <a href="mailto:Jtsmall4@coastal.edu">Jtsmall4@coastal.edu</a>
+                </address>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <p>Jordan Small · Coastal Carolina University</p>
+            <a href="#main-content">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script>
+        // Keeps the layout informative when project images have not been uploaded yet.
+        function showPlaceholder(element, label) {
+            const placeholder = document.createElement("span");
+            placeholder.className = "media-placeholder";
+            placeholder.innerHTML = "<strong>" + label + "</strong>";
+            element.replaceWith(placeholder);
+        }
+
+        document.querySelectorAll("img[data-placeholder]").forEach(function (image) {
+            image.addEventListener("error", function () {
+                showPlaceholder(image, image.dataset.placeholder);
+            }, { once: true });
+
+            if (image.complete && image.naturalWidth === 0) {
+                showPlaceholder(image, image.dataset.placeholder);
+            }
+        });
+
+    </script>
 </body>
 </html>
